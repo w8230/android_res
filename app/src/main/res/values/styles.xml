@@ -1,0 +1,36 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorOrangeF79256</item>
+        <item name="colorPrimaryDark">@color/colorOrangeF79256</item>
+        <item name="colorAccent">@color/colorOrangeF79256</item>
+        <item name="colorControlActivated">@color/colorOrangeF79256</item>
+        <item name="android:textCursorDrawable">@color/colorOrangeF79256</item>
+        <item name="android:windowBackground">@color/colorWhiteFDFD</item>
+        <item name="bottomSheetDialogTheme">@style/MyAppBottomSheetDialogTheme</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="MyAppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/MyAppModalStyle</item>
+    </style>
+
+    <style name="MyAppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_white_top_radius_16dp</item>
+    </style>
+
+
+    <!-- Toolbar theme. -->
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/colorWhiteFDFD</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Ratingbar theme -->
+    <style name="MyRatingBarTheme" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorOrangeF79256</item>
+        <item name="colorControlActivated">@color/colorOrangeF79256</item>
+        <item name="android:progressTint">@color/colorOrangeF79256</item>
+        <item name="android:secondaryProgressTint">@android:color/transparent</item>
+    </style>
+</resources>
